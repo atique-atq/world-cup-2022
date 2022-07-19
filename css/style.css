@@ -14,7 +14,6 @@
     border-radius: 30px;
     margin: 50px 140px;
     display: flex;
-    justify-content: space-between;
     padding: 35px 80px 0px 105px;
  }
 
@@ -38,6 +37,20 @@
  }
 
  .header-image img{
+     height: 100%;
      width: 100%;
+ }
+
+ .tomato-button{
+     margin-top: 30px;
+     background-color: rgb(247, 65, 33);
+     border: none;
+     padding: 15px 25px;
+     border-radius: 5px;
+     color: white;
+ }
+
+ .fa-solid .fa-star{
+     color: gold;
  }
 
