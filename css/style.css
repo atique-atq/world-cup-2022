@@ -249,20 +249,51 @@
      }
 
      .button-container{
-        width: 630px;
+        width: 500px;
         height: 100px;
         background-color: white;
-        margin-left: 0px;
+        margin-left: 10px;
         padding-right: 50px;
         border-radius: 10px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         flex-direction: row;
     }
 
-    
+    .side-button{
+        height: 64px;
+        width: 130px;
+        background-color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        margin: 10px;
+        margin-right: 25px;
+        margin-left: 40px;
+        font-weight: 600;
+    }
 
+    
+    .button-selector{
+        text-decoration: none;
+        min-width: 140px;
+    }
+   
+    .button-selector:visited{
+       color: inherit;
+    }
+   
+    .side-button:hover{
+       cursor: pointer;
+       background-color: yellow;
+       color: black;
+    }
+   
+    .selected-side-button{
+       background-color: tomato;
+       color: white;
+    }
 
 }
 
