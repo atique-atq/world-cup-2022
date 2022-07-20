@@ -93,6 +93,7 @@
  .side-button:hover{
     cursor: pointer;
     background-color: yellow;
+    color: black;
  }
 
  .selected-side-button{
