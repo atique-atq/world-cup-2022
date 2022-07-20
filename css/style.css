@@ -312,6 +312,29 @@
         width: 100%;
     }
 
+    .matches{
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 400px;
+        grid-gap: 25px;
+    }
+
+    .match{
+        width: 400px;
+        height: 280px;
+     }
+    
+
+    .flag-images{
+        padding-left: 10px;
+        display: grid;
+        grid-template-columns: 120px 50px 120px;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
 }
 
  /* Tablet Devices  */
