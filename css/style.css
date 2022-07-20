@@ -259,7 +259,7 @@
         margin-top: 50px;
         color: rgb(183, 180, 180);
         font-size: 14px;
-        width: 320px;
+        width: 250px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -271,6 +271,44 @@
    
     .header-image img{
         height: 100%;
+        width: 100%;
+    }
+
+    /* body part  */
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        /* margin: 40px 10px 10px 40px; */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button-container{
+        width: 352px;
+        height: 312px;
+        background-color: white;
+        margin-right: 30px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .side-button{
+        border: 1px solid rgb(224, 223, 223);
+    }
+
+    .blogs{
+        display: grid;
+        grid-template-columns: 400px;
+        grid-gap: 15px;
+    }
+
+    .blog{
+        border: 1px solid rgb(238, 237, 237);
+        border-radius: 10px;
+        box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, 0.2);
         width: 100%;
     }
 
