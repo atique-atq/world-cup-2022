@@ -184,6 +184,19 @@
      color: #ccc;
  }
 
+ .view{
+     align-items: center;
+ }
+ 
+ .view-button{
+     background-color: tomato;
+     border: none;
+     border-radius: 5px;
+     padding: 5px 10px;
+     color: white;
+     display: none;
+ }
+
  /* footer style */
  footer{
      background-color: rgb(38, 52, 58);
@@ -293,6 +306,21 @@
     .selected-side-button{
        background-color: tomato;
        color: white;
+    }
+
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+    }
+
+    .view{
+        display: flex;
+        align-items: center;
+    }
+    .view-button{
+        margin-top: 40px;
+        display: block;
     }
 
 }
