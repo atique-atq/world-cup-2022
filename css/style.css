@@ -132,7 +132,7 @@
  .matches{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 15px;
+    grid-gap: 25px;
 }
 
  .match{
@@ -140,7 +140,7 @@
     border-radius: 10px;
     box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, 0.2);
     width: 200px;
-    height: 170px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -148,14 +148,16 @@
  }
 
  .flag-images{
+     padding-left: 10px;
      display: grid;
      grid-template-columns: 80px 30px 80px;
      align-items: center;
      justify-content: center;
+     margin: auto;
  }
 
  .flags{
-     width: 90%;
+     width: 85%;
  }
 
  .country-name{
