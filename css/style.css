@@ -10,7 +10,7 @@
   custom-styles
  --------------*/
  .top-banner{
-    background-color: rgb(38, 70, 83);
+    background-color: rgb(34, 58, 68);
     border-radius: 30px;
     margin: 50px 140px;
     display: flex;
@@ -50,7 +50,32 @@
      color: white;
  }
 
- .fa-solid .fa-star{
-     color: gold;
+ .main-container{
+     display: flex;
+     margin: 100px 140px 40px 140px;
  }
+
+ .button-container{
+     width: 312px;
+     height: 312px;
+     background-color: #61acef;
+     margin-right: 40px;
+     border-radius: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ .side-button{
+     height: 64px;
+     width: 252px;
+     background-color: white;
+     border: none;
+     border-radius: 10px;
+     font-size: 20px;
+     margin: 10px;
+     font-weight: 600;
+ }
+
 
