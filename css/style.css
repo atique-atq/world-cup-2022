@@ -236,6 +236,10 @@
      margin-bottom: 5px;
  }
 
+ .social-media-icon i{
+    color: white;
+    font-size: 20px;
+ }
 
  /*------------------
    responsiveness
