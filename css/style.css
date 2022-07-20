@@ -82,6 +82,11 @@
      font-weight: 600;
  }
 
+ .side-button a, a:visited {
+     text-decoration: none;
+     color: inherit;
+ }
+
  .selected-side-button{
     background-color: tomato;
     color: white;
