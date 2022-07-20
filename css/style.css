@@ -323,10 +323,23 @@
     .view a{
         text-decoration: none;
     }
-    
+
     .view-button{
         margin-top: 40px;
         display: block;
+    }
+
+    .footer-option-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-option{
+        color: rgb(147, 145, 145);
+        margin: 10px 30px;
+        font-size: 16px;
+        font-weight: 400;
     }
 }
 
