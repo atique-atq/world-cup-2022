@@ -273,11 +273,17 @@
         width: 100%;
     }
 
+    .header-tomato-button{
+        padding: 10px 10px;
+        border-radius: 5px;
+        color: white;
+    }
+
     /* body part  */
     .main-container{
         display: flex;
         flex-direction: column;
-        /* margin: 40px 10px 10px 40px; */
+        margin: 40px 10px 10px 40px;
         justify-content: center;
         align-items: center;
     }
@@ -335,6 +341,13 @@
     }
 
     /* footer part  */
+    .footer-option-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .footer-option{
         color: rgb(147, 145, 145);
         margin: 10px 20px;
