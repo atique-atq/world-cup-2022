@@ -208,7 +208,6 @@
 
  footer h1{
      margin: 0px;
-
  }
 
  #footer-hr{
@@ -333,6 +332,21 @@
         align-items: center;
         justify-content: center;
         margin: auto;
+    }
+
+    /* footer part  */
+    .footer-option{
+        color: rgb(147, 145, 145);
+        margin: 10px 20px;
+        font-size: 12px;
+        font-weight: 300;
+    }
+   
+    footer p{
+        margin-top: 40px;
+        font-size: 12px;
+        color: rgb(205, 203, 203);
+        margin-bottom: 5px;
     }
 
 }
