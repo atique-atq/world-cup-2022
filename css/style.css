@@ -271,8 +271,8 @@
      .header-text p{
         margin-top: 50px;
         color: rgb(183, 180, 180);
-        font-size: 12px;
-        width: 220px;
+        font-size: 10px;
+        width: 230px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
